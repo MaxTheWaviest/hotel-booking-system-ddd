@@ -309,7 +309,7 @@ This project is for educational purposes as part of a Domain-Driven Design assig
 
 ## 👥 Author
 
-**Ikhias Obanokho** - Domain-Driven Design Assignment - July 2025
+**Ikhias Obanokho** - Domain-Driven Design Assignment - August 2025
 
 ---
 
