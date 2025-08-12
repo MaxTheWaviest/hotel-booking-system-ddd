@@ -7,21 +7,21 @@
 
 A comprehensive Domain-Driven Design (DDD) implementation of a hotel booking system for Crown Hotels, featuring Clean Architecture, rich domain modeling, and complete business rule enforcement.
 
-## 🏨 Project Overview
+## Project Overview
 
 Crown Hotels is a boutique hotel with 100 rooms that needed to replace their spreadsheet-based booking system. This implementation eliminates double bookings, enforces business rules automatically, and provides a robust foundation for hotel operations.
 
 ### Key Features
 
-- 🏗️ **Clean Architecture** with proper dependency inversion
-- 🎯 **Domain-Driven Design** with rich domain models
-- 🔒 **Business Rule Enforcement** (age requirements, advance booking, cancellation policies)
-- 🚀 **RESTful API** with OpenAPI documentation
-- 🧪 **70%+ Test Coverage** ensuring reliability
-- 💳 **Mock Payment Service** ready for Stripe integration
-- 📧 **Mock Notification Service** ready for email integration
+- **Clean Architecture** with proper dependency inversion
+- **Domain-Driven Design** with rich domain models
+- **Business Rule Enforcement** (age requirements, advance booking, cancellation policies)
+- **RESTful API** with OpenAPI documentation
+- **70%+ Test Coverage** ensuring reliability
+- **Mock Payment Service** ready for Stripe integration
+- **Mock Notification Service** ready for email integration
 
-## 🏗️ Architecture
+## Architecture
 
 ### Clean Architecture Layers
 
@@ -48,7 +48,7 @@ Crown Hotels is a boutique hotel with 100 rooms that needed to replace their spr
 - **Room** - Individual rooms with capacity and type constraints
 - **Booking** - Complete booking lifecycle with business rules
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -117,7 +117,7 @@ The system enforces Crown Hotels' business requirements:
 | **No Double Bookings** | Availability checking | Domain Layer |
 | **Payment Required** | `Booking.confirm_payment()` | Domain Layer |
 
-## 🏠 Room Inventory
+## Room Inventory
 
 - **Standard Rooms**: 50 rooms (capacity: 1-2 guests) - £100/night
 - **Deluxe Rooms**: 40 rooms (capacity: 1-3 guests) - £200/night
@@ -125,7 +125,7 @@ The system enforces Crown Hotels' business requirements:
 
 Room numbers follow the format: `XYZ` where `X` = floor (1-9), `YZ` = room on floor (01-50)
 
-## 🧪 Testing
+## Testing
 
 The project maintains high test coverage across all layers:
 
@@ -148,7 +148,7 @@ pytest tests/api/             # API endpoint tests
 
 ### Development
 - **SQLite** for local development and testing
-- **Auto-initialization** with 100 sample rooms
+- **Auto-initialisation** with 100 sample rooms
 - **In-memory testing** for fast test execution
 
 ### Production Ready
@@ -195,7 +195,7 @@ curl -X POST "http://localhost:8000/bookings" \
 curl "http://localhost:8000/rooms/availability?check_in=2025-08-01&check_out=2025-08-03&guest_count=2&room_type=standard"
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 hotel-booking-system/
@@ -226,7 +226,7 @@ hotel-booking-system/
 └── README.md               # This file
 ```
 
-## 🚀 Development
+## Development
 
 ### Code Quality
 - **Type hints** throughout the codebase
@@ -241,14 +241,14 @@ hotel-booking-system/
 4. Ensure 70%+ test coverage
 5. Submit a pull request
 
-## 📈 Performance
+## Performance
 
-- **Optimized queries** for room availability checking
+- **Optimised queries** for room availability checking
 - **Efficient date range calculations**
 - **In-memory caching** for room types and rates
 - **Concurrent booking support** with proper locking
 
-## 🔐 Security Considerations
+## Security Considerations
 
 ### Current Implementation
 - **Input validation** with Pydantic models
@@ -256,33 +256,33 @@ hotel-booking-system/
 - **Type safety** with Python type hints
 
 ### Production Requirements
-- Authentication and authorization
+- Authentication and authorisation
 - HTTPS termination
 - Rate limiting
-- Input sanitization
+- Input sanitisation
 - Audit logging
 
-## 📋 Business Impact
+## Business Impact
 
 ### Problems Solved
-- ❌ **Double bookings** causing £10,000 monthly losses
-- ❌ **Manual errors** in spreadsheet-based system
-- ❌ **Lack of business rule enforcement**
-- ❌ **Poor availability tracking**
+- **Double bookings** causing £10,000 monthly losses
+- **Manual errors** in spreadsheet-based system
+- **Lack of business rule enforcement**
+- **Poor availability tracking**
 
 ### Benefits Delivered
-- ✅ **Automated business rule enforcement**
-- ✅ **Real-time availability checking**
-- ✅ **Reliable booking management**
-- ✅ **Scalable architecture for growth**
+- **Automated business rule enforcement**
+- **Real-time availability checking**
+- **Reliable booking management**
+- **Scalable architecture for growth**
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Short-term
 - Stripe payment integration
 - Email service integration
 - Advanced search and filtering
-- Mobile API optimizations
+- Mobile API optimisations
 
 ### Medium-term
 - Multi-property support
@@ -296,21 +296,21 @@ hotel-booking-system/
 - Machine learning for dynamic pricing
 - IoT integration for smart rooms
 
-## 📄 Documentation
+## Documentation
 
 - **Domain Model**: Comprehensive entity and value object documentation
 - **API Documentation**: Auto-generated OpenAPI/Swagger docs at `/docs`
 - **Test Coverage**: Detailed coverage reports in `htmlcov/`
 - **Architecture Decision Records**: Documented design decisions and rationale
 
-## 📝 License
+## License
 
 This project is for educational purposes as part of a Domain-Driven Design assignment.
 
-## 👥 Author
+## Author
 
 **Ikhias Obanokho** - Domain-Driven Design Assignment - August 2025
 
 ---
 
-*Built with ❤️ using Domain-Driven Design principles and Clean Architecture*
+*Built using Domain-Driven Design principles and Clean Architecture*
