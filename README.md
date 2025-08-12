@@ -86,7 +86,7 @@ The API will be available at:
 ./scripts/test.sh
 ```
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Booking Management
 - `POST /bookings` - Create new booking
@@ -103,7 +103,7 @@ The API will be available at:
 - `POST /guests` - Register new guest
 - `GET /guests/{guest_id}/bookings` - Get guest booking history
 
-## 💼 Business Rules
+## Business Rules
 
 The system enforces Crown Hotels' business requirements:
 
@@ -156,7 +156,7 @@ pytest tests/api/             # API endpoint tests
 - **SQLAlchemy ORM** for database abstraction
 - **Migration support** for schema evolution
 
-## 🔌 External Services
+## External Services
 
 ### Mock Services (Development)
 - **MockPaymentService** - Simulates payment processing
@@ -167,7 +167,7 @@ pytest tests/api/             # API endpoint tests
 - **Email service** interfaces established
 - **Clean service boundaries** for easy integration
 
-## 📊 Example Usage
+## Example Usage
 
 ### Create a Booking
 
