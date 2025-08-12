@@ -144,7 +144,7 @@ pytest tests/infrastructure/  # Repository and service tests
 pytest tests/api/             # API endpoint tests
 ```
 
-## 🗃️ Database
+## Database
 
 ### Development
 - **SQLite** for local development and testing
